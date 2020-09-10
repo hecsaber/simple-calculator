@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>I'm the calculus</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+            <div id="display"></div>
+            <div class="calculatorBody">
+                <div class="container">
+                    <div class="buttons">
+                        <button data-key="103" class="number">7</button>
+                        <button data-key="104" class="number">8</button>
+                        <button data-key="105" class="number">9</button>
+                    </div>
+                    <div class="buttons">
+                        <button data-key="100" class="number">4</button>
+                        <button data-key="101" class="number">5</button>
+                        <button data-key="102" class="number">6</button>
+                    </div>
+                    <div class="buttons">
+                        <button data-key="97" class="number">1</button>
+                        <button data-key="98" class="number">2</button>
+                        <button data-key="99" class="number">3</button>
+                    </div>
+                    <div class="buttons">
+                        <button data-key="96" class="number">0</button>
+                        <button class="number" id="dot" data-key="108">.</button>
+                        <button data-key="27" id="clear">c</button>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="buttons">
+                        <button class="specButton" id="add" data-key="107">+</button>
+                    </div>
+                    <div class="buttons">
+                        <button class="specButton" id="subtract" data-key="109">-</button>
+                    </div>
+                    <div class="buttons">
+                        <button class="specButton" id="multiply" data-key="106">*</button>
+                    </div>
+                    <div class="buttons">
+                        <button class="specButton" id="divide" data-key="111">/</button>
+                    </div>
+                </div>
+            </div>
+            <div class="rest">
+                <button id="equal" data-key="13">=</button>
+                <button data-key="8" id="backspace"><-</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
